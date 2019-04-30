@@ -9,3 +9,22 @@ For using this in your website just download it. Then put the whole folder in ht
 
 <br><br>
 Finally your slimapp will be ready to execute. Change as your own wise. This repository doesn't provide security features. Its just for practice and reference. Be sure to have attention in security for all the time. 
+
+
+## api pattern for Customer
+public/api <br>
+public/api/customers <br>
+public/api/customer/{id} <br>
+public/api/customer/add <br>
+public/api/customer/update/{id} <br>
+public/api/customer/delete/{id}<br>
+
+
+## api pattern for Book
+public/api/book <br>
+public/api/book/{id} <br>
+public/api/book/query/{search_query} <br>
+public/api/book/publisher/{publisher} <br>
+public/api/book/delete/{id}
+
+
